@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:"微软雅黑", "Microsoft JhengHei", "黑体";
+	margin:0px;
+	padding:0px;
+	font-weight:normal;
+}
+ul,li{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.white{
+	background:#fff;
+	width:100%;
+}
+.gray{
+	background:#f4f4f4;
+	width:100%;
+}
+.content{
+	width:1000px;
+	margin:0 auto;
+}
+a{
+	text-decoration:none;
+	color:#333333;
+}
+a:hover{
+	color:#04b8af;
+}
+/*--------导航----------------*/
+#nav{
+	padding-top:58px;
+}
+#company_name{
+	padding-bottom:30px;
+	padding-left:37px;
+	float:left;
+}
+#nav ul{
+	float:left;
+	padding-left:110px;
+}
+#nav ul li{
+	float:left;
+	display:inline-block;
+	text-align:center;
+	padding:0 5px 20px 5px;
+	margin:0 15px;
+	font-family:"微软雅黑", "Microsoft JhengHei", "黑体";
+}
+.focus{
+	border-bottom:4px #04b8af solid;
+}
+.cle{
+	height:0px;
+	clear:both;
+}
+/*----banner------*/
+#banner{
+	clear:both;
+}
+/*----------------企业理念-------------*/
+#company{
+	background:url(images/company_bg.png) no-repeat;
+	background-size:cover;
+	text-align:center;
+	color:#fff;
+	font-family:"黑体";
+}
+#company h1{
+	padding-top:100px;
+	padding-bottom:40px;
+}
+#company h2{
+	font-size:18px;
+	font-style:italic;
+	padding-bottom:100px;
+}
+/*-------------footer-----------*/
+#footer{
+	background-color:#33424a;
+	color:#fff;
+	padding-top:30px;
+}
+#footer ul{
+	float:left;
+	width:230px;
+	margin:0 50px;
+}
+#footer ul li{
+	line-height:30px;
+}
+#footer ul .us{
+	padding-bottom:10px;
+	border-bottom:3px #88dbd4 solid;
+	margin-bottom:5px;
+}
+.adress{
+	background:url(images/adress.png) no-repeat left 4px;
+	padding-left:25px;
+}
+.tel_phone{
+	background:url(images/tel.png) no-repeat left 4px;
+	padding-left:25px;
+}
+#webchat{
+	float:left;
+	padding-left:50px;
+}
+#webchat p{
+	margin:10px;
+	padding-left:13px;
+}
+#copyright{
+	text-align:center;
+	line-height:80px;
+}
+
+/*-------首页--------------*/
+/*----------产品介绍-----------*/
+#information{
+	text-align:center;
+	padding-top:80px;
+}
+#information h1{
+	font-size:36px;
+}
+#information h2{
+	font-size:30px;
+	margin-top:20px;
+}
+#information span{
+	display:inline-block;
+	font-size:28px;
+	font-family:"华文细黑","微软雅黑","黑体";
+	padding-top:22px;
+	margin:70px 25px 25px 25px;
+	width:120px;
+	height:120px;
+	color:#fff;
+}
+span.ke{
+	background:url(images/ke.png) no-repeat;
+}
+span.guan{
+	background:url(images/guan.png) no-repeat;
+}
+span.tong{
+	background:url(images/tong.png) no-repeat;
+}
+span.mian{
+	background:url(images/mian.png) no-repeat;
+}
+/*---------医生端与患者端介绍----------*/
+#doctor,#patients{
+	padding:50px 0;
+}
+#doctor_phone{
+	float:left;
+	padding-left:120px;
+}
+#patients_phone{
+	float:right;
+	padding-right:220px;
+}
+#doctor_introduct{
+	float:left;
+	padding:230px 0 0 80px;
+}
+#patients_introduct{
+	float:left;
+	padding:230px 0 0 150px;
+}
+#doctor_introduct h1,#patients_introduct h1{
+	font-family:"华文细黑","微软雅黑","黑体";
+	line-height:65px;
+}
+#doctor_introduct ul,#patients_introduct ul{
+	padding-left:20px;
+}
+#doctor_introduct ul li,#patients_introduct ul li{
+	line-height:30px;
+	font-size:18px;
+	list-style-image:url(images/liststyle.png);
+}
+/*----------连接示意图--------*/
+#connection{
+	clear:both;
+	text-align:center;
+}
+#connection{
+	line-height:140px;
+}
+/*-----------关于我们--------------*/
+#about{
+	padding:60px 40px;
+}
+#about img{
+	float:left;
+	padding-right:30px;
+}
+#about p{
+	text-align:justify;
+	line-height:1.5em;
+	color:#333333;
+	text-indent:2em;
+}
+.team_about{
+	line-height:150px;
+	text-align:center;
+	background:url(images/line.png) no-repeat center;
+}
+.column{
+	width:250px;
+	padding:10px 40px 50px 40px;
+	float:left;
+	text-align:center;
+}
+.column img{
+	padding-bottom:20px;
+}
+.column h2{
+	color:#1586A3;
+	font-size:22px;
+}
+.column p{
+	text-align:justify;
+	line-height:1.5em;
+	color:#3D3D3D
+}
+#footer a{
+	text-decoration:none;
+	color:#ffffff;
+}
+#footer a:hover{
+	color:#04b8af;
+}
